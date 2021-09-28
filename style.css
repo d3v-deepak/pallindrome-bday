@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #2e86c1;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+main {
+  margin: 5rem;
+}
+nav {
+  background-color: var(--primary-color);
+  height: 6rem;
+  width: 100%;
+  text-align: center;
+}
+.brand-name {
+  font-size: 3rem;
+}
+body {
+  margin: 0;
+}
+input {
+  font-size: 2rem;
+}
+#show-btn {
+  font-size: 2rem;
+  /* padding: 1rem; */
+  border-radius: 10px;
+  background-color: var(--primary-color);
+}
+
+.output {
+  padding: 2rem;
+  font-size: 2rem;
+}
